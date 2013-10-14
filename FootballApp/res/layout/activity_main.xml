@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text"
+        android:text="" />
+
+    <Button
+        android:id="@+id/teamB"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginTop="10dip"
+        android:text="Get Team Stats" />
+
+    <Button
+        android:id="@+id/playerB"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginTop="15dip"
+        android:text="Player Stats From Manchester United" />
+
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:hint="Enter Player or Team Name and click appropriate button"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+</LinearLayout>

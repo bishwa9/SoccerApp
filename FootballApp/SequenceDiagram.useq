@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.4" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.example.footballapp.MainActivity" project="FootballApp" 
+    file="/FootballApp/src/com/example/footballapp/MainActivity.java" binary="false" label="mainActivity" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="143" y="0"/>    
+    <execution id="2">      
+      <position height="137" width="112" x="5" y="120"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="87" width="112" x="5" y="149"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="200" width="112" x="5" y="78"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="7" x="61" y="466"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="7" x="61" y="714"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="7" x="58" y="986"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="112" x="5" y="1270"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="com.example.footballapp.hyperlinkGetterTask" project="FootballApp" 
+    file="/FootballApp/src/com/example/footballapp/hyperlinkGetterTask.java" binary="false" label="hyperlinkGetterTask" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="205" y="0"/>    
+    <execution id="14">      
+      <position height="91" width="7" x="186" y="272"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="7" x="189" y="321"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="63" width="137" x="121" y="445"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="126" width="137" x="121" y="403"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="154" width="137" x="121" y="230"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="21" width="137" x="121" y="194"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="com.example.footballapp.statsGetterTask" project="FootballApp" 
+    file="/FootballApp/src/com/example/footballapp/statsGetterTask.java" binary="false" label="statsGetterTask" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="333" y="0"/>    
+    <execution id="26">      
+      <position height="155" width="114" x="262" y="767"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="92" width="114" x="262" y="809"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="7" x="319" y="859"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="78" width="114" x="262" y="974"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="114" x="262" y="738"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="141" width="114" x="262" y="932"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="com.example.footballapp.parserTask" project="FootballApp" 
+    file="/FootballApp/src/com/example/footballapp/parserTask.java" binary="false" label="parserTask" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="467" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="112" x="380" y="454"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="100" width="112" x="380" y="539"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="21" width="7" x="436" y="597"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="76" width="112" x="380" y="704"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="163" width="112" x="380" y="497"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="139" width="112" x="380" y="662"/>    
+    </execution>  
+  </object>  
+  <object id="49" language="java" name="com.example.footballapp.parserTask" project="FootballApp" 
+    file="/FootballApp/src/com/example/footballapp/parserTask.java" binary="false" label="parserTask1" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="579" y="0"/>    
+    <execution id="34">      
+      <position height="21" width="112" x="496" y="1010"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="88" width="112" x="496" y="1082"/>    
+    </execution>    
+    <execution id="53">      
+      <position height="151" width="112" x="496" y="1040"/>    
+    </execution>    
+    <execution id="52">      
+      <position height="21" width="7" x="552" y="1128"/>    
+    </execution>    
+    <execution id="55">      
+      <position height="126" width="112" x="496" y="1207"/>    
+    </execution>    
+    <execution id="57">      
+      <position height="63" width="112" x="496" y="1249"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="onClick(android.view.View):void" x="115" y="136">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="execute(Params[]):android.os.AsyncTask&lt;Params,Progress,Result&gt;" x="71" y="176">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="8" operation="onCreate(android.os.Bundle):void" x="68" y="61">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </message>  
+  <message id="15" operation="hyperlinkGetterTask(com.example.footballapp.MainActivity)">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="18" operation="execute(Params[]):android.os.AsyncTask&lt;Params,Progress,Result&gt;" x="205" y="460">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="display(java.lang.String):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="22" operation="onPostExecute(java.lang.String):void">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="24" operation="doInBackground(java.lang.String[]):java.lang.String">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="27" operation="doInBackground(java.lang.String[]):java.lang.String">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="makeHTTPRequest(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="32" operation="display(java.lang.String):void">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="33" operation="execute(Params[]):android.os.AsyncTask&lt;Params,Progress,Result&gt;">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="37" operation="onPostExecute(java.lang.String):void">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="40" operation="callAppropriateParse(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="43" operation="display(java.lang.String):void">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="44" operation="execute(Params[]):android.os.AsyncTask&lt;Params,Progress,Result&gt;">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="46" operation="doInBackground(java.lang.String[]):java.lang.String">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="48" operation="onPostExecute(java.lang.String):void">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="51" operation="callAppropriateParse(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="54" operation="doInBackground(java.lang.String[]):java.lang.String">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="56" operation="onPostExecute(java.lang.String):void">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="57"/>  
+  </message>  
+  <message id="58" operation="display(java.lang.String):void">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>
+</sequence-diagram>
